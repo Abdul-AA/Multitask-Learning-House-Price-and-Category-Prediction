@@ -18,4 +18,4 @@ The dataset utilized in this analysis is the ["House Prices - Advanced Regressio
 
 Additionally, houses are categorized based on building type and style into 'Family Home', 'Townhouse', and 'Multi-Family or Duplex', among others. The combination of age and type categories results in the comprehensive 'House Category' for each property. This enriched dataset provides a nuanced framework for our multi-task learning model to operate within.
 
-For more details, please refer to the project report file.
+For more details, please refer to the [project report file](https://github.com/Abdul-AA/Multitask-Learning-House-Price-and-Category-Prediction/blob/476991e53d2444001b4f6f9385e1e7f9a708202e/Report.pdf).
