@@ -9,7 +9,7 @@ The challenge of this project is two-fold: to predict the sale price of houses a
 We hypothesize that the integration of house characteristics, such as building type and renovation history, into a unified model can significantly enhance the prediction performance over separate models handling each task independently. This hypothesis is based on the premise that certain features will have shared influence across both regression and classification tasks, leading to more robust and generalizable predictions.
 
 ## Dataset
-The dataset utilized in this analysis is the "House Prices - Advanced Regression Techniques" from Kaggle. In addition to the original features, this project introduces a new categorical variable, 'House Category', derived from the 'House Style', 'Bldg Type', 'Year Built', and 'Year Remod/Add' features. The categorization is as follows:
+The dataset utilized in this analysis is the ["House Prices - Advanced Regression Techniques"](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data) from Kaggle. In addition to the original features, this project introduces a new categorical variable, 'House Category', derived from the 'House Style', 'Bldg Type', 'Year Built', and 'Year Remod/Add' features. The categorization is as follows:
 
 - Houses renovated or built within the last 20 years are categorized as 'Modern'.
 - Houses renovated or built within the last 50 years are classified as 'Contemporary'.
