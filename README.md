@@ -1,6 +1,6 @@
 # Multi-task Learning Model for House Price Prediction and Classification
 
-In the dynamic and complex real estate market, accurate prediction of house prices and classification of house types are crucial for both market analysis and investment decisions. This project aims to build and evaluate a multi-task learning model that simultaneously predicts house prices, a regression task, and categorizes houses into predefined categories, a classification task. By leveraging multi-task learning models and utilizing advanced features of PyTorch Lightning, this project seeks to efficiently manage and optimize the learning process for these intertwined tasks.
+In this project,I built and evaluated a multi-task learning model that simultaneously predicts house prices, a regression task, and categorizes houses into predefined categories, a classification task. By leveraging multi-task learning models and utilizing advanced features of PyTorch Lightning, I efficiently managed and optimized the learning process for these intertwined tasks.
 
 ## Problem Statement
 The challenge of this project is two-fold: to predict the sale price of houses and to classify them into categories based on age, building type, and renovation status. The goal is to develop a predictive model that can handle multiple output variables and exploit commonalities and differences between tasks to improve prediction accuracy and model efficiency.
