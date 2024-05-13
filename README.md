@@ -1,6 +1,6 @@
 # Multi-task Learning Model for House Price Prediction and Classification
 
-In this project,I built and evaluated a multi-task learning model that simultaneously predicts house prices, a regression task, and categorizes houses into predefined categories, a classification task. By leveraging multi-task learning models and utilizing advanced features of PyTorch Lightning, I efficiently managed and optimized the learning process for these intertwined tasks.
+In this project,I built and evaluated a multi-task learning model that simultaneously predicts house prices, a regression task, and categorizes houses into predefined categories, a classification task. By leveraging multi-task learning and utilizing advanced features of PyTorch Lightning, I efficiently managed and optimized the learning process for these intertwined tasks.
 
 ## Problem Statement
 The challenge of this project is two-fold: to predict the sale price of houses and to classify them into categories based on age, building type, and renovation status. The goal is to develop a predictive model that can handle multiple output variables and exploit commonalities and differences between tasks to improve prediction accuracy and model efficiency.
@@ -16,6 +16,7 @@ The dataset utilized in this analysis is the ["House Prices - Advanced Regressio
 - Houses renovated or built within the last 100 years fall under 'Vintage'.
 - Older houses are labeled as 'Historic'.
 
-Additionally, houses are categorized based on building type and style into 'Family Home', 'Townhouse', and 'Multi-Family or Duplex', among others. The combination of age and type categories results in the comprehensive 'House Category' for each property. This enriched dataset provides a nuanced framework for our multi-task learning model to operate within.
+Additionally, houses are categorized based on building type and style into 'Family Home', 'Townhouse', and 'Multi-Family or Duplex', among others. The combination of age and type categories results in the comprehensive 'House Category' for each property. This enriched dataset provides a nuanced framework for the multi-task learning neural network to operate within.
+
 
 For more details, please refer to the [project report file](https://github.com/Abdul-AA/Multitask-Learning-House-Price-and-Category-Prediction/blob/476991e53d2444001b4f6f9385e1e7f9a708202e/Report.pdf).
