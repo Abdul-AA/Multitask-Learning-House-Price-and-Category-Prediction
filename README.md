@@ -40,6 +40,21 @@ The final architecture of the multi-task learning model is designed to simultane
 - This approach balances the learning process, improves convergence, and enhances generalization across both tasks.
 
 
+## Performance on Holdout Set
+
+| Metric            | Value     |
+|-------------------|-----------|
+| Test Accuracy     | 0.72      |
+| Test Cat Loss     | 0.78      |
+| Test F1 Score     | 0.70      |
+| Test Loss         | 1.44      |
+| Test Precision    | 0.71      |
+| Test Price RMSE   | 45619.42  |
+| Test R2 Score     | 0.67      |
+| Test Recall       | 0.72      |
+
+### Note:
+- **RMSE (Root Mean Squared Error)** is used instead of MSE as it is more intuitive and penalizes large errors more effectively. MAE could have been used but does not penalize large errors.
 
 
 For more details, please refer to the [project report file](https://github.com/Abdul-AA/Multitask-Learning-House-Price-and-Category-Prediction/blob/476991e53d2444001b4f6f9385e1e7f9a708202e/Report.pdf).
