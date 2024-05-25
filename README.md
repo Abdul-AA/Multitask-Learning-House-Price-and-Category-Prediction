@@ -28,10 +28,12 @@ Additionally, houses are categorized based on building type and style into 'Fami
 
 ### Bivariate Analysis:Some Key Features Against House Price
 ![Bivariate Analysis](https://github.com/Abdul-AA/Multitask-Learning-House-Price-and-Category-Prediction/blob/2e62323c846aff0d4e30bcf416126cffdcad6e16/Plots/Bivariate.png)
-#### Multivariate Analysis: Correlation Matrix
+### Multivariate Analysis: Correlation Matrix
 ![Multivariate](https://github.com/Abdul-AA/Multitask-Learning-House-Price-and-Category-Prediction/blob/070fdfc39f3aaee3815a64f27a415e0af0e846cd/Plots/heatmap.png)
 
-### Model Architecture
+### Nullity Correlation
+![Nullity](https://github.com/Abdul-AA/Multitask-Learning-House-Price-and-Category-Prediction/blob/cfd7a9ecc0d4c7dbe7fc04c611ce9c5f7e2e6392/Plots/Screen%20Shot%202024-05-25%20at%207.53.20%20AM.png)
+## Model Architecture
 
 The final architecture of the multi-task learning model is designed to simultaneously handle regression and classification tasks. Here are the key components:
 
