@@ -17,6 +17,9 @@ The dataset utilized in this analysis is the ["House Prices - Advanced Regressio
 - Older houses are labeled as 'Historic'.
 
 Additionally, houses are categorized based on building type and style into 'Family Home', 'Townhouse', and 'Multi-Family or Duplex', among others. The combination of age and type categories results in the comprehensive 'House Category' for each property. This enriched dataset provides a nuanced framework for the multi-task learning neural network to operate within.
+# House Price Distribution
+![House Price Distribution](url)
+
 
 ### Model Architecture
 
