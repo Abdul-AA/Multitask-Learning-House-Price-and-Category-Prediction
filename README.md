@@ -22,7 +22,7 @@ Additionally, houses are categorized based on building type and style into 'Fami
 
 ### Univariate Analysis: House Price Distribution 
 ![House Price Distribution](https://github.com/Abdul-AA/Multitask-Learning-House-Price-and-Category-Prediction/blob/5b9d8f4f805194cb869fb55827aa9d6428f318d6/Plots/House%20price.png)
-## Insights from the SalePrice Distribution
+#### Insights from the SalePrice Distribution
 
 - The distribution of SalePrice is right-skewed.
 - Most properties are concentrated in the price range of \$100,000 to \$300,000.
