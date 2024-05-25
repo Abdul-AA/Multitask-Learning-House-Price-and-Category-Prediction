@@ -20,15 +20,16 @@ Additionally, houses are categorized based on building type and style into 'Fami
 
 ## Exploratory Data Analysis
 
-### House Price Distribution (Univariate Analysis)
+### Univariate Analysis: House Price Distribution 
 ![House Price Distribution](https://github.com/Abdul-AA/Multitask-Learning-House-Price-and-Category-Prediction/blob/5b9d8f4f805194cb869fb55827aa9d6428f318d6/Plots/House%20price.png)
 
-### House Category Distribution (Univariate Analysis)
+### Univariate Analysis: House Category Distribution
 ![House Category Distribution](https://github.com/Abdul-AA/Multitask-Learning-House-Price-and-Category-Prediction/blob/39bed33ccc21bd6ea500bc0d503eca5308a180c7/Plots/House%20cat.png)
 
-### Bivariate Analysis of Key Features Against House Price
+### Bivariate Analysis:Some Key Features Against House Price
 ![Bivariate Analysis](https://github.com/Abdul-AA/Multitask-Learning-House-Price-and-Category-Prediction/blob/2e62323c846aff0d4e30bcf416126cffdcad6e16/Plots/Bivariate.png)
-
+#### Multivariate Analysis: Correlation Matrix
+! [Multivariate](https://github.com/Abdul-AA/Multitask-Learning-House-Price-and-Category-Prediction/blob/070fdfc39f3aaee3815a64f27a415e0af0e846cd/Plots/heatmap.png)
 
 ### Model Architecture
 
