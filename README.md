@@ -27,7 +27,7 @@ Additionally, houses are categorized based on building type and style into 'Fami
 ![House Category Distribution](https://github.com/Abdul-AA/Multitask-Learning-House-Price-and-Category-Prediction/blob/39bed33ccc21bd6ea500bc0d503eca5308a180c7/Plots/House%20cat.png)
 
 ### Bivariate Analysis of Key Features Against House Price
-! [Bivariate Analysis](https://github.com/Abdul-AA/Multitask-Learning-House-Price-and-Category-Prediction/blob/2e62323c846aff0d4e30bcf416126cffdcad6e16/Plots/Bivariate.png)
+![Bivariate Analysis](https://github.com/Abdul-AA/Multitask-Learning-House-Price-and-Category-Prediction/blob/2e62323c846aff0d4e30bcf416126cffdcad6e16/Plots/Bivariate.png)
 
 
 ### Model Architecture
