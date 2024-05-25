@@ -18,7 +18,27 @@ The dataset utilized in this analysis is the ["House Prices - Advanced Regressio
 
 Additionally, houses are categorized based on building type and style into 'Family Home', 'Townhouse', and 'Multi-Family or Duplex', among others. The combination of age and type categories results in the comprehensive 'House Category' for each property. This enriched dataset provides a nuanced framework for the multi-task learning neural network to operate within.
 
-### Model Architecture
+## Exploratory Data Analysis
+
+### Univariate Analysis: House Price Distribution 
+![House Price Distribution](https://github.com/Abdul-AA/Multitask-Learning-House-Price-and-Category-Prediction/blob/5b9d8f4f805194cb869fb55827aa9d6428f318d6/Plots/House%20price.png)
+
+### Univariate Analysis: House Category Distribution
+![House Category Distribution](https://github.com/Abdul-AA/Multitask-Learning-House-Price-and-Category-Prediction/blob/39bed33ccc21bd6ea500bc0d503eca5308a180c7/Plots/House%20cat.png)
+
+### Bivariate Analysis:Some Key Features Against House Price
+![Bivariate Analysis](https://github.com/Abdul-AA/Multitask-Learning-House-Price-and-Category-Prediction/blob/2e62323c846aff0d4e30bcf416126cffdcad6e16/Plots/Bivariate.png)
+### Multivariate Analysis: Correlation Matrix
+![Multivariate](https://github.com/Abdul-AA/Multitask-Learning-House-Price-and-Category-Prediction/blob/070fdfc39f3aaee3815a64f27a415e0af0e846cd/Plots/heatmap.png)
+
+
+### Nullity 
+#### Nullity Correlation
+![Nullity](https://github.com/Abdul-AA/Multitask-Learning-House-Price-and-Category-Prediction/blob/cfd7a9ecc0d4c7dbe7fc04c611ce9c5f7e2e6392/Plots/Screen%20Shot%202024-05-25%20at%207.53.20%20AM.png)
+#### Nullity Matrix
+![Nullity Matrix](https://github.com/Abdul-AA/Multitask-Learning-House-Price-and-Category-Prediction/blob/924a5eabb26e18b340bddc1d969ff8aba497f47d/Plots/Screen%20Shot%202024-05-25%20at%207.53.31%20AM.png)
+
+## Model Architecture
 
 The final architecture of the multi-task learning model is designed to simultaneously handle regression and classification tasks. Here are the key components:
 
@@ -44,13 +64,13 @@ The final architecture of the multi-task learning model is designed to simultane
 
 | Metric            | Value     |
 |-------------------|-----------|
-| Test Accuracy     | 0.72      |
-| Test Cat Loss     | 0.78      |
-| Test F1 Score     | 0.70      |
-| Test Loss         | 1.44      |
-| Test Precision    | 0.71      |
-| Test Price RMSE   | 45619.42  |
-| Test R2 Score     | 0.67      |
+| Test Accuracy     | 0.76      |
+| Test Cat Loss     | 0.90      |
+| Test F1 Score     | 0.71      |
+| Test Loss         | 1.72      |
+| Test Precision    | 0.72     |
+| Test Price RMSE   | 53735.53  |
+| Test R2 Score     | 0.55      |
 | Test Recall       | 0.72      |
 
 ### Note:
