@@ -64,13 +64,13 @@ The final architecture of the multi-task learning model is designed to simultane
 
 | Metric            | Value     |
 |-------------------|-----------|
-| Test Accuracy     | 0.72      |
-| Test Cat Loss     | 0.78      |
-| Test F1 Score     | 0.70      |
-| Test Loss         | 1.44      |
-| Test Precision    | 0.71      |
-| Test Price RMSE   | 45619.42  |
-| Test R2 Score     | 0.67      |
+| Test Accuracy     | 0.76      |
+| Test Cat Loss     | 0.90      |
+| Test F1 Score     | 0.71      |
+| Test Loss         | 1.72      |
+| Test Precision    | 0.72     |
+| Test Price RMSE   | 53735.53  |
+| Test R2 Score     | 0.55      |
 | Test Recall       | 0.72      |
 
 ### Note:
