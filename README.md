@@ -183,9 +183,10 @@ The final architecture of the multi-task learning model is designed to simultane
 - This approach balances the learning process, improves convergence, and enhances generalization across both tasks.
 ## Final Loss Function
 
-\[ 
+
+$$
 \mathcal{L} = \left( \frac{1}{2\sigma_{\text{price}}^2} \mathcal{L}_{\text{price}} + \log \sigma_{\text{price}} \right) + \left( \frac{1}{2\sigma_{\text{category}}^2} \mathcal{L}_{\text{category}} + \log \sigma_{\text{category}} \right) + \alpha \left( \text{l1\_ratio} \sum_{p \in \Theta} |p| + (1 - \text{l1\_ratio}) \sum_{p \in \Theta} p^2 \right)
-\]
+$$
 
 Where:
 - \(\mathcal{L}_{\text{price}} = \text{MSE}(\hat{y}_{\text{price}}, y_{\text{price}})\)
@@ -194,7 +195,6 @@ Where:
 - \(\Theta\) represents the set of all trainable parameters.
 - \(\alpha\) is the regularization strength.
 - \(\text{l1\_ratio}\) determines the balance between L1 and L2 regularization.
-
 
 ## Performance on Holdout Set
 
