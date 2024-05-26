@@ -181,18 +181,6 @@ The final architecture of the multi-task learning model is designed to simultane
 **Uncertainty Balancing:**
 - Incorporation of task uncertainty parameters (`log sigma squared price` and `log sigma squared category`) to dynamically adjust the contribution of each task's loss.
 - This approach balances the learning process, improves convergence, and enhances generalization across both tasks.
-## Final Loss Function
-
-![Loss Function](https://latex.codecogs.com/svg.latex?\mathcal{L}=\left(\frac{1}{2\sigma_{\text{price}}^2}\mathcal{L}_{\text{price}}+\log\sigma_{\text{price}}\right)+\left(\frac{1}{2\sigma_{\text{category}}^2}\mathcal{L}_{\text{category}}+\log\sigma_{\text{category}}\right)+\alpha\left(\text{l1\_ratio}\sum_{p\in\Theta}|p|+(1-\text{l1\_ratio})\sum_{p\in\Theta}p^2\right))
-
-Where:
-- ![L_price](https://latex.codecogs.com/svg.latex?\mathcal{L}_{\text{price}}=\text{MSE}(\hat{y}_{\text{price}},y_{\text{price}}))
-- ![L_category](https://latex.codecogs.com/svg.latex?\mathcal{L}_{\text{category}}=\text{CrossEntropyLoss}(\hat{y}_{\text{category}},y_{\text{category}}))
-- ![sigma_price](https://latex.codecogs.com/svg.latex?\sigma_{\text{price}}) and ![sigma_category](https://latex.codecogs.com/svg.latex?\sigma_{\text{category}}) are the learned task uncertainty parameters.
-- ![theta](https://latex.codecogs.com/svg.latex?\Theta) represents the set of all trainable parameters.
-- ![alpha](https://latex.codecogs.com/svg.latex?\alpha) is the regularization strength.
-- ![l1_ratio](https://latex.codecogs.com/svg.latex?\text{l1\_ratio}) determines the balance between L1 and L2 regularization.
-
 
 ## Performance on Holdout Set
 
