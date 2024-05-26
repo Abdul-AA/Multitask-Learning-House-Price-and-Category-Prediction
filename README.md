@@ -1,5 +1,21 @@
 # Multi-task Learning Model for House Price Prediction and Classification
-
+## Table of Contents
+- [Introduction](#Introduction)
+- [Problem Statement](#problem-statement)
+- [Hypothesis](#hypothesis)
+- [Dataset](#dataset)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+  - [Univariate Analysis: House Price Distribution](#univariate-analysis-house-price-distribution)
+  - [Univariate Analysis: House Category Distribution](#univariate-analysis-house-category-distribution)
+  - [Bivariate Analysis: Some Key Numeric Features Against House Price](#bivariate-analysis-some-key-numeric-features-against-house-price)
+  - [Bivariate Analysis: Some Key Categorical Features Against House Price](#bivariate-analysis-some-key-categorical-features-against-house-price)
+  - [Multivariate Analysis: Correlation Matrix](#multivariate-analysis-correlation-matrix)
+  - [Nullity](#nullity)
+    - [Nullity Correlation](#nullity-correlation)
+    - [Nullity Matrix](#nullity-matrix)
+- [Model Architecture](#model-architecture)
+- [Performance on Holdout Set](#performance-on-holdout-set)
+## Introduction
 In this project,I built and evaluated a multi-task learning model that simultaneously predicts house prices, a regression task, and categorizes houses into predefined categories, a classification task. By leveraging multi-task learning and utilizing advanced features of PyTorch Lightning, I efficiently managed and optimized the learning process for these intertwined tasks.
 
 ## Problem Statement
@@ -146,6 +162,7 @@ This visual aided in understanding the completeness of the dataset and informed 
 
 ## Model Architecture
 
+![Arch](https://github.com/Abdul-AA/Multitask-Learning-House-Price-and-Category-Prediction/blob/04f93da5ca679df69eac1e89bccf2323e7723e03/Plots/Architecture.png)
 The final architecture of the multi-task learning model is designed to simultaneously handle regression and classification tasks. Here are the key components:
 
 **Shared Feature Layers:**
