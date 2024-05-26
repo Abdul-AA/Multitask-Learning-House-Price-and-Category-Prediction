@@ -139,7 +139,7 @@ This nullity correlation analysis is generally useful for understanding the patt
 - The nullity matrix helps to quickly identify features with significant missing data, which are candidates for imputation or removal. Most of the missing data in this dataset is informative; therefore, they were replaced with the appropriate values accordingly
 
 ##### Interpretation
-The presence of substantial missing values in certain features suggests the need for targeted data imputation strategies or decisions to exclude these features from analysis. Features with minimal missing values can generally be retained without significant preprocessing.
+The presence of substantial missing values in certain features suggests the need for targeted data imputation strategies which, in this case, involved replacing nulls with the appropriate values such as "NoAlley", "NoFence", etc.
 
 This visual aided in understanding the completeness of the dataset and informed decisions for handling missing data during the data cleaning process.
 
